@@ -1,6 +1,7 @@
 CREATE TABLE NetflixMovies (
     movieID VARCHAR   NOT NULL,
     title VARCHAR   NOT NULL,
+    director VARCHAR NOT NULL,
     country VARCHAR   NOT NULL,
     film_language VARCHAR   NOT NULL,
     release_year INTEGER   NOT NULL,
